@@ -14,3 +14,11 @@ export interface AuthContextType {
 export interface AuthContexProviderProps {
   children: ReactNode;
 }
+
+export interface RoomCodeProps{
+  code:string;
+}
+
+export interface RoomParams{
+  id:string;
+}
